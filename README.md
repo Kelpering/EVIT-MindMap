@@ -43,3 +43,21 @@ than IPv4.
 
 IMAP (Internet Message Access Protocol): A protocol to allow for the retrieval of email from
 a centralized server. Allows for multiple devices to receive the same mail.
+
+Question 1:
+What is the difference between HTTP and HTTPS, and why is HTTPS preferred for secure communication?
+
+Answer:
+HTTP (HyperText Transfer Protocol) is used to request and respond to servers for files or data. HTTPS (HTTP Secure) is an enhanced version of HTTP that implements SSL/TLS for encryption, ensuring secure communication by protecting data from eavesdropping and tampering.
+
+Question 2:
+How do IPv4 and IPv6 differ in addressing devices on the internet?
+
+Answer:
+IPv4 addresses are four octet byte strings used to identify devices on a network. IPv6, while functioning similarly in identifying devices, has a much larger address space, allowing for a vastly greater number of unique devices to be addressed compared to IPv4.
+
+Question 3:
+What protocol would you use to securely transfer files to a remote machine and why?
+
+Answer:
+You would use SFTP (SSH File Transfer Protocol) or FTPS (File Transfer Protocol Secure). SFTP is preferred if SSH access is available since it leverages the security of SSH. FTPS can be used when secure file transfers are required but without SSH access.
