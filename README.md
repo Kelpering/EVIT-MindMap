@@ -37,8 +37,8 @@ over a network. Can be used recursively in smaller LAN networks. (A router has a
 internal computers can have their own IP addresses that might already be taken outside of the
 inner network).
 
-IPv6: Another address, exactly the same as IPv4 in most practical applications except for the
-fact that it has a larger address space. This means it can uniquely identify many more computers
+IPv6 (IPv6 Address): Another address, exactly the same as IPv4 in most practical applications except for the
+fact that it has a larger address space due to having sixteen (16) octets in the byte string. This means it can uniquely identify many more computers
 than IPv4.
 
 IMAP (Internet Message Access Protocol): A protocol to allow for the retrieval of email from
@@ -54,10 +54,10 @@ Question 2:
 How do IPv4 and IPv6 differ in addressing devices on the internet?
 
 Answer:
-IPv4 addresses are four octet byte strings used to identify devices on a network. IPv6, while functioning similarly in identifying devices, has a much larger address space, allowing for a vastly greater number of unique devices to be addressed compared to IPv4.
+IPv4 addresses are four octet byte strings used to identify devices on a network. IPv6, while functioning similarly in identifying devices, has a much larger address space (with sixteen octets), allowing for a vastly greater number of unique devices to be addressed compared to IPv4.
 
 Question 3:
 What protocol would you use to securely transfer files to a remote machine and why?
 
 Answer:
-You would use SFTP (SSH File Transfer Protocol) or FTPS (File Transfer Protocol Secure). SFTP is preferred if SSH access is available since it leverages the security of SSH. FTPS can be used when secure file transfers are required but without SSH access.
+You would use SFTP (SSH File Transfer Protocol) or FTPS (File Transfer Protocol Secure). SFTP is preferred if SSH access is available since it leverages the ease of use of SSH. FTPS can be used when secure file transfers are required but without SSH access, or when speed is an absolute priority.
